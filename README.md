@@ -1,4 +1,4 @@
-# SiteCraft-Gallery
+SiteCraft-Gallery
 ===================
 
 This page was created using SiteCraft
