@@ -24,7 +24,7 @@
     "url": "https://github.com/ZeroDragon/SiteCraft-Gallery/issues"
   },
   "homepage": "https://github.com/ZeroDragon/SiteCraft-Gallery#readme",
-  "dependencies": {
-    "sitecraft": "^1.0.5"
+  "devDependencies": {
+    "sitecraft": "^1.0.6"
   }
 }
