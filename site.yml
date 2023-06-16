@@ -1,0 +1,9 @@
+siteName: SiteCraft Template Gallery
+siteDesc: This site was created using SiteCraft
+author:
+  name: Zero
+  site: https://floresbenavides.com
+siteUrl: https://mysite.com
+pages:  # this node is optional
+  Home: /
+  About: /about

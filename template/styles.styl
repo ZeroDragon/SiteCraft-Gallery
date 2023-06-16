@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+
+primary = #F2994A
+secondary = #4EA9D0
+fill = #444654
+contrast = #e63946
+white = #fafafa
+
+:root
+  --primary: primary
+  --fill: fill
+  --white: white
+  --secondary: secondary
+  --contrast: contrast
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+body
+  background-color: var(--fill)
+  color: var(--white)
+  font-family: 'Roboto', sans-serif
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+
+a
+  text-decoration: none
+  color: var(--contrast)
+  &:hover
+    color: var(--secondary)
+
+header
+  img
+    width: 100%
+  border-bottom: 1px solid var(--secondary)
+  height: 300px
+  background: url(/images/header.jpg) no-repeat center
+  background-size: cover
+
+nav.navigation
+  position: -webkit-sticky
+  position: sticky
+  top: 0
+  height: 60px
+  ul
+    list-style: none
+    display: flex
+    align-items: flex-start
+    justify-content: center
+  a
+    display: inline-block
+    padding: 10px 0
+    margin: 0 6px
+    background-color: var(--contrast)
+    min-width: 100px
+    text-align: center
+    color: var(--white)
+    transition: all 300ms linear
+    border-bottom-left-radius: 6px
+    border-bottom-right-radius: 6px
+    &:hover
+      padding-top: 20px
+
+footer
+  border-top: 1px solid var(--secondary)
+  text-align: center
+  padding 20px 0
+  margin-top: auto
+
+h1
+  color: var(--primary)
+
+.content
+  max-width: 1000px
+  margin: 0 auto
+  padding: 0 10%
