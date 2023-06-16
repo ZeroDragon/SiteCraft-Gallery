@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/ZeroDragon/SiteCraft-Gallery/issues"
   },
-  "homepage": "https://github.com/ZeroDragon/SiteCraft-Gallery#readme",
+  "homepage": "https://zerodragon.github.io/SiteCraft-Gallery",
   "devDependencies": {
     "sitecraft": "^1.0.6"
   }
