@@ -7,6 +7,8 @@ on:
 
 jobs:
   deploy:
+    env:
+      ENV: production
     runs-on: ubuntu-22.04
     permissions:
       contents: write

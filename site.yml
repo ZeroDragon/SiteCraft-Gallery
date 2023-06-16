@@ -3,7 +3,7 @@ siteDesc: This site was created using SiteCraft
 author:
   name: Zero
   site: https://floresbenavides.com
-siteUrl: https://mysite.com
+siteUrl: https://zerodragon.github.io/SiteCraft-Gallery
 pages:  # this node is optional
   Home: /
   About: /about
