@@ -4,7 +4,8 @@
   "description": "A Gallery of sitecraft templates (PR encouraged)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sitecraft build"
   },
   "repository": {
     "type": "git",
