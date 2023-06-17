@@ -3,30 +3,11 @@
 # !{siteName}
 !{siteDesc}
 
-mucho texto aosdmfalsdmfa sdflka sdmfl asd fmas dmfa sdkfm asklmdflkas dflmkas dflk asmdflk as
-mucho texto aosdmfalsdmfa sdflka sdmfl asd fmas dmfa sdkfm asklmdflkas dflmkas dflk asmdflk as
-mucho texto aosdmfalsdmfa sdflka sdmfl asd fmas dmfa sdkfm asklmdflkas dflmkas dflk asmdflk as
-mucho texto aosdmfalsdmfa sdflka sdmfl asd fmas dmfa sdkfm asklmdflkas dflmkas dflk asmdflk as
-mucho texto aosdmfalsdmfa sdflka sdmfl asd fmas dmfa sdkfm asklmdflkas dflmkas dflk asmdflk as
-mucho texto aosdmfalsdmfa sdflka sdmfl asd fmas dmfa sdkfm asklmdflkas dflmkas dflk asmdflk as
-mucho texto aosdmfalsdmfa sdflka sdmfl asd fmas dmfa sdkfm asklmdflkas dflmkas dflk asmdflk as
-mucho texto aosdmfalsdmfa sdflka sdmfl asd fmas dmfa sdkfm asklmdflkas dflmkas dflk asmdflk as
-mucho texto aosdmfalsdmfa sdflka sdmfl asd fmas dmfa sdkfm asklmdflkas dflmkas dflk asmdflk as
-
 <br>
 
-- lista
-- asdfasd
-- asdfasd
-- asdfasd
-- asdfasdf
+Here is a list of all SiteCraft themes created by the comunity, feel free to use them, remix them and if you want to showcase your theme, open a PR with your entry :D
 
 <br>
+<hr>
 
-1. numero
-2. numero2
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-**bold**
+!{blogList}
