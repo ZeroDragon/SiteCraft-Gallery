@@ -1,14 +1,8 @@
 head
-  title #{siteName}
-  link(rel="stylesheet", href=`${siteUrl}/styles.css`)
+  include partials/headMeta.pug
+
 body
-  header
-  nav.navigation
-    ul
-      for uri, page in pages
-        li
-          a(href=`${uri}`) #{page}
+  include partials/header.pug
   .content
     |!{pageData}
-  footer
-    |SiteCraft by #{author.name}: #{new Date().getFullYear()}
+  include partials/footer.pug

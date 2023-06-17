@@ -9,11 +9,14 @@ white = #fafafa
 :root
   --primary: primary
   --fill: fill
+  --fillWhiten: lighten(fill, 20%)
+  --fillDarken: darken(fill, 30%)
   --white: white
+  --whiteDarken: darken(white, 30%)
   --secondary: secondary
   --contrast: contrast
 
-*
+*:not(ul, ol, li)
   box-sizing: border-box
   margin: 0
   padding: 0
@@ -28,9 +31,11 @@ body
 
 a
   text-decoration: none
-  color: var(--contrast)
+  color: var(--secondary)
   &:hover
-    color: var(--secondary)
+    color: var(--contrast)
+a, p.link
+  transition: all 300ms linear
 
 header
   img
@@ -45,6 +50,9 @@ nav.navigation
   position: sticky
   top: 0
   height: 60px
+  ul, li 
+    margin: 0
+    padding: 0
   ul
     list-style: none
     display: flex
@@ -58,7 +66,6 @@ nav.navigation
     min-width: 100px
     text-align: center
     color: var(--white)
-    transition: all 300ms linear
     border-bottom-left-radius: 6px
     border-bottom-right-radius: 6px
     &:hover
@@ -72,8 +79,52 @@ footer
 
 h1
   color: var(--primary)
+h2
+  color: var(--secondary)
 
 .content
-  max-width: 1000px
-  margin: 0 auto
-  padding: 0 10%
+  max-width: 1200px
+  margin: 0 auto 20px auto
+  padding: 0 20px
+  display: flex
+  flex-direction: column
+  .navigator
+    display: flex
+    justify-content: space-between
+  & > *
+    display: block
+    margin: 5px 0
+  h2
+    border-bottom: 2px solid var(--fillDarken)
+  p
+    line-height: 1.3em
+  p > code
+    background-color var(--fillWhiten)
+    padding: 2px 4px
+    border-radius: 4px
+  blockquote
+    position: relative
+    padding: 4px 20px
+    opacity: 0.5
+    &:before
+      position: absolute
+      content: ""
+      width: 3px
+      height: 100%
+      top: 0
+      left: 0
+      background-color: var(--primary)
+  pre
+    width: 100%
+    background-color: var(--fillDarken)
+    padding: 10px
+    margin: 0 auto
+    border-radius: 6px
+    overflow: auto
+    display: flex
+    line-height: 1.6em
+    code
+      font-size: 1.1em
+      max-width: 10px
+
+@import "blogList.styl"
