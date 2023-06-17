@@ -2,7 +2,7 @@
   each post in posts
     - var date = post.meta.date
     - var options = { year: 'numeric', month: 'short', day: 'numeric' }
-    .card(style=`background-image: url(${siteUrl}${post.meta.image})`)
+    .card(style=`background-image: url(${siteUrl}/${post.meta.image})`)
       .blogContent
         h3.title
           p.postTitle #{post.meta.title}
@@ -10,4 +10,4 @@
         .cta
           p.author by #{post.meta.author}
           p.link Read more
-      a(href=`${siteUrl}posts/${post.path}`).megaLink
+      a(href=`${siteUrl}/posts/${post.path}`).megaLink
