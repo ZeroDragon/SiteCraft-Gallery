@@ -40,4 +40,4 @@ Remember to use the contents of the theme you are wanting to use directly into t
 ```
 
 ### How to install
-Just download the `mate.zip` file from [this repository](https://github.com/zerodragon/SiteCraft-Gallery) under `/releases` directory and unzip it inside your `/template` directory (just the files not the directory)
+Just download the `mate.zip` file from [this repository](https://github.com/zerodragon/SiteCraft-Gallery) under `releases` and unzip it inside your `/template` directory (just the files not the directory)
