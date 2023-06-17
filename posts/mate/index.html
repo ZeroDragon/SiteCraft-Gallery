@@ -1,17 +1,17 @@
 
 <head>
-  <title>SiteCraft Template Gallery</title>
+  <title>Mate Theme - SiteCraft Template Gallery</title>
   <meta charset="UTF-8"/>
   <meta name="description" content="This site was created using SiteCraft"/>
   <meta property="og:url" content="https://zerodragon.github.io/SiteCraft-Gallery"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="SiteCraft Template Gallery"/>
+  <meta property="og:title" content="Mate Theme - SiteCraft Template Gallery"/>
   <meta property="og:description" content="This site was created using SiteCraft"/>
   <meta property="og:image" content="https://zerodragon.github.io/SiteCraft-Gallery/images/header.jpg"/>
   <meta name="twitter:card" content="summary_large_image"/>
   <meta property="twitter:domain" content="https://zerodragon.github.io/SiteCraft-Gallery"/>
   <meta property="twitter:url" content="https://zerodragon.github.io/SiteCraft-Gallery"/>
-  <meta name="twitter:title" content="SiteCraft Template Gallery"/>
+  <meta name="twitter:title" content="Mate Theme - SiteCraft Template Gallery"/>
   <meta name="twitter:description" content="This site was created using SiteCraft"/>
   <meta name="twitter:image" content="https://zerodragon.github.io/SiteCraft-Gallery/images/header.jpg"/>
   <link rel="apple-touch-icon" sizes="180x180" href="https://zerodragon.github.io/SiteCraft-Gallery/apple-touch-icon.png"/>
@@ -32,18 +32,37 @@
       <li><a href="https://zerodragon.github.io/SiteCraft-Gallery/about">About</a></li>
     </ul>
   </nav>
-  <div class="content"><h1>About SiteCraft</h1>
-<p>SiteCraft is a tool designed to help you create from landing pages to blog pages that does not require any backend, just static content that can be deployed to any static host like this one in GitHub Pages</p>
-<br>
+  <div class="content"><h2>Mate Theme</h2>
+<p><img src="https://zerodragon.github.io/SiteCraft-Gallery/content/images/mate.jpeg" alt="Mate"></p>
+<h3>What it Mate?</h3>
+<p>Mate is an argentinian herb that is used as tea (it is actually a tea leaf) and the name of this theme is because when I was developing this theme I was drinking a lot of Mate.</p>
+<p>This is the base theme, nothing super fancy, and in fact it is the theme that you are looking right now.</p>
+<blockquote>
+<p>It features a liquid responsive design</p>
+</blockquote>
+<p>This theme is also a showcase with all the options that can be used in the metadata of a blogpost, how to customize the bloglist and how to do imports in the <code>styl</code> files to reduce file size while developing a template.</p>
+<p>Remember to use the contents of the theme you are wanting to use directly into the <code>/template</code> directory.</p>
+<h3>File structure of this theme</h3>
+<pre><code>─ template
+  ├─ favicon
+  │  └─ All favicon related items
+  ├─ images
+  │  └─ header.jpg
+  ├─ partials
+  │  ├─ blogList.pug # showcase of the list of post of the homepage
+  │  ├─ blogList.styl # sepparated styl file so wont blotter the original style sheet
+  │  ├─ foter.pug
+  │  ├─ header.pug
+  │  └─ headMeta.pug # where all the social media magic happens
+  ├─ page.pug # this is used to render all single pages
+  ├─ post.pug # similar to page, but this is used to render individual blog posts
+  └─ styles.styl # primary stylesheet. Check those imports
+</code></pre>
+<h3>How to install</h3>
+<p>Just download the <code>mate.zip</code> file from <a target="_blank" href="https://github.com/zerodragon/SiteCraft-Gallery">this repository</a> under <code>/releases</code> directory and unzip it inside your <code>/template</code> directory (just the files not the directory)</p>
 
-<p>More info in the <a target="_blank" href="https://github.com/zerodragon/SiteCraft">Github repository</a></p>
-<br>
-
-<p>If you want to contribute and create a new template, just open a <strong>PR</strong> on <a target="_blank" href="https://github.com/zerodragon/SiteCraft-Gallery">this repository</a> with a blog post where you describe your template and a link to where can it be downloaded from.
-(Check the first blog post)</p>
-<br>
-
-<p>If you like this work, come and take a look at my <a target="_blank" href="https://www.patreon.com/zerodragon">Patreon</a></p>
-</div>
+    <div class="navigator"><span></span><span></span>
+    </div>
+  </div>
   <footer>SiteCraft by Zero: 2023</footer>
 </body>
