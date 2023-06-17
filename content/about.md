@@ -6,7 +6,7 @@ SiteCraft is a tool designed to help you create from landing pages to blog pages
 
 <br>
 
-More info in [Github](https://github.com/zerodragon/SiteCraft)
+More info in the [Github repository](https://github.com/zerodragon/SiteCraft)
 
 <br>
 

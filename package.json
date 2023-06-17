@@ -4,7 +4,7 @@
   "description": "A Gallery of sitecraft templates (PR encouraged)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "zip -r releases/mate.zip template",
     "build": "sitecraft build"
   },
   "repository": {
@@ -24,7 +24,7 @@
     "url": "https://github.com/ZeroDragon/SiteCraft-Gallery/issues"
   },
   "homepage": "https://zerodragon.github.io/SiteCraft-Gallery",
-  "devDependencies": {
-    "sitecraft": "file:../SiteCraft"
+  "dependencies": {
+    "sitecraft": "^1.0.8"
   }
 }

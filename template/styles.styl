@@ -38,12 +38,34 @@ a, p.link
   transition: all 300ms linear
 
 header
-  img
-    width: 100%
+  position: relative
   border-bottom: 1px solid var(--secondary)
-  height: 300px
-  background: url($siteUrl + "/images/header.jpg") no-repeat center
-  background-size: cover
+  background-color: #000
+  &:before
+    position: absolute
+    content: ""
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: url($siteUrl + "/images/header.jpg") no-repeat center
+    background-size: cover
+    opacity: 0.3
+  .homeTitle
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    height: 150px
+    img
+      width: 50px
+      height: 50px
+      margin-bottom: 5px
+    span
+      font-size: 2em
+      font-weight: 700
+      letter-spacing: 1px
 
 nav.navigation
   position: -webkit-sticky
@@ -94,6 +116,9 @@ h2
   & > *
     display: block
     margin: 5px 0
+  img
+    max-width: 100%
+    border-radius: 10px
   h2
     border-bottom: 2px solid var(--fillDarken)
   p
