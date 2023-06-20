@@ -10,8 +10,9 @@ More info in the [Github repository](https://github.com/zerodragon/SiteCraft)
 
 <br>
 
-If you want to contribute and create a new template, just open a **PR** on [this repository](https://github.com/zerodragon/SiteCraft-Gallery) with a blog post where you describe your template and a link to where can it be downloaded from.
-(Check the first blog post)
+## Do you want to showcase your template?
+
+If you want to contribute to the gallery just create a new template, then open a **PR** on [this repository](https://github.com/zerodragon/SiteCraft-Gallery) with a blog post where you describe your template and a link to where can it be downloaded from. (Check the first blog post)
 
 <br>
 
