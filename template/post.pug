@@ -8,12 +8,12 @@ body
 
     .navigator
       if next.path
-        a(href=`/posts/${next.path}`) &laquo; #{next.title}
+        a(href=`${siteUrl}/posts/${next.path}`) &laquo; #{next.title}
       else
         span
 
       if prev.path
-        a(href=`/posts/${prev.path}`) #{prev.title} &raquo;
+        a(href=`${siteUrl}/posts/${prev.path}`) #{prev.title} &raquo;
       else
         span
 
