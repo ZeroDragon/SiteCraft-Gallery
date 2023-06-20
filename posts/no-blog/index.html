@@ -1,17 +1,17 @@
 
 <head>
-  <title>SiteCraft Template Gallery</title>
+  <title>Simple Theme - SiteCraft Template Gallery</title>
   <meta charset="UTF-8"/>
   <meta name="description" content="This site was created using SiteCraft"/>
   <meta property="og:url" content="https://zerodragon.github.io/SiteCraft-Gallery"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="SiteCraft Template Gallery"/>
+  <meta property="og:title" content="Simple Theme - SiteCraft Template Gallery"/>
   <meta property="og:description" content="This site was created using SiteCraft"/>
   <meta property="og:image" content="https://zerodragon.github.io/SiteCraft-Gallery/images/header.jpg"/>
   <meta name="twitter:card" content="summary_large_image"/>
   <meta property="twitter:domain" content="https://zerodragon.github.io/SiteCraft-Gallery"/>
   <meta property="twitter:url" content="https://zerodragon.github.io/SiteCraft-Gallery"/>
-  <meta name="twitter:title" content="SiteCraft Template Gallery"/>
+  <meta name="twitter:title" content="Simple Theme - SiteCraft Template Gallery"/>
   <meta name="twitter:description" content="This site was created using SiteCraft"/>
   <meta name="twitter:image" content="https://zerodragon.github.io/SiteCraft-Gallery/images/header.jpg"/>
   <link rel="apple-touch-icon" sizes="180x180" href="https://zerodragon.github.io/SiteCraft-Gallery/apple-touch-icon.png"/>
@@ -32,41 +32,32 @@
       <li><a href="https://zerodragon.github.io/SiteCraft-Gallery/about">About</a></li>
     </ul>
   </nav>
-  <div class="content"><h1>SiteCraft Template Gallery</h1>
-<p>This site was created using SiteCraft</p>
-<br>
+  <div class="content"><h2>Simple Theme</h2>
+<p><img src="https://zerodragon.github.io/SiteCraft-Gallery/content/images/no-blog.png" alt="Mate"></p>
+<br/>
 
-<p>Here is a list of all SiteCraft themes created by the comunity, feel free to use them, remix them and if you want to showcase your theme, open a PR with your entry :D</p>
-<br>
-<hr>
+<p>This is as simple as it gets, no blog, no entries, just a header, footer and simple landing page. This build does not include favicons, you can add yours. 
+No pages defined in <code>site.yml</code>. But you can add as desired to <code>content/*</code> and define them so they can be displayed at the header</p>
+<h3>File structure of this theme</h3>
+<pre><code>─ template
+  ├─ favicon
+  │  └─ All favicon related items
+  ├─ images
+  │  └─ header.jpg
+  ├─ partials
+  │  ├─ foter.pug
+  │  ├─ header.pug
+  │  └─ headMeta.pug # where all the social media magic happens
+  ├─ page.pug # this is used to render all single pages
+  └─ styles.styl # primary stylesheet. Check those imports
+</code></pre>
+<br/>
 
-<p>
-<div class="blogList">
-  <div class="card" style="background-image: url(https://zerodragon.github.io/SiteCraft-Gallery/content/images/no-blog.png)">
-    <div class="blogContent">
-      <h3 class="title">
-        <p class="postTitle">Simple Theme</p>
-      </h3>
-      <p class="excerpt">This is a simple site without blog, just a landing</p>
-      <div class="cta">
-        <p class="author">by Zero</p>
-        <p class="link">Read more</p>
-      </div>
-    </div><a class="megaLink" href="https://zerodragon.github.io/SiteCraft-Gallery/posts/no-blog"></a>
+<h3>How to install</h3>
+<p>Just download the <code>template.zip</code> file from <a target="_blank" href="https://github.com/ZeroDragon/SiteCraft-simple-theme">this repository</a> under <code>releases</code> and unzip it inside your <code>/template</code> directory (just the files not the directory)</p>
+
+    <div class="navigator"><a href="/posts/mate">&laquo; Mate Theme</a><span></span>
+    </div>
   </div>
-  <div class="card" style="background-image: url(https://zerodragon.github.io/SiteCraft-Gallery/content/images/mate.jpeg)">
-    <div class="blogContent">
-      <h3 class="title">
-        <p class="postTitle">Mate Theme</p>
-      </h3>
-      <p class="excerpt">Original theme with examples for all posibilities supported</p>
-      <div class="cta">
-        <p class="author">by Zero</p>
-        <p class="link">Read more</p>
-      </div>
-    </div><a class="megaLink" href="https://zerodragon.github.io/SiteCraft-Gallery/posts/mate"></a>
-  </div>
-</div></p>
-</div>
   <footer>SiteCraft by Zero: 2023</footer>
 </body>
