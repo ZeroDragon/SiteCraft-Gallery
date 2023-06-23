@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title>SiteCraft Template Gallery</title>
+  <subtitle>This site was created using SiteCraft</subtitle>
+  <link href="https://zerodragon.github.io/SiteCraft-Gallery/atom.xml" rel="self"/>
+  <link href="https://zerodragon.github.io/SiteCraft-Gallery"/>
+  <updated>Mon Jun 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)</updated>
+  <id>${siteUrl}</id>
+  <author>
+    <name>Zero</name>
+    <uri>https://floresbenavides.com</uri>
+  </author>
+  <entry>
+    <title>Simple Theme</title>
+    <link href="https://zerodragon.github.io/SiteCraft-Gallery/posts/no-blog"/>
+    <id>https://zerodragon.github.io/SiteCraft-Gallery/posts/no-blog</id>
+    <published>2023-06-19T00:00:00.000Z</published>
+    <updated>2023-06-19T00:00:00.000Z</updated>
+    <media:thumbnail url="https://zerodragon.github.io/SiteCraft-Gallery/content/images/no-blog.png"></media:thumbnail>
+    <content type="html">&lt;h2&gt;Simple Theme&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;!%7BsiteUrl%7D/content/images/no-blog.png&quot; alt=&quot;Mate&quot;&gt;&lt;/p&gt;
+&lt;br/&gt;
+
+&lt;p&gt;This is as simple as it gets, no blog, no entries, just a header, footer and simple landing page. This build does not include favicons, you can add yours. 
+No pages defined in &lt;code&gt;site.yml&lt;/code&gt;. But you can add as desired to &lt;code&gt;content/*&lt;/code&gt; and define them so they can be displayed at the header&lt;/p&gt;
+&lt;h3&gt;File structure of this theme&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;─ template
+  ├─ favicon
+  │  └─ All favicon related items
+  ├─ images
+  │  └─ header.jpg
+  ├─ partials
+  │  ├─ foter.pug
+  │  ├─ header.pug
+  │  └─ headMeta.pug # where all the social media magic happens
+  ├─ page.pug # this is used to render all single pages
+  └─ styles.styl # primary stylesheet. Check those imports
+&lt;/code&gt;&lt;/pre&gt;
+&lt;br/&gt;
+
+&lt;h3&gt;How to install&lt;/h3&gt;
+&lt;p&gt;Just download the &lt;code&gt;template.zip&lt;/code&gt; file from &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ZeroDragon/SiteCraft-simple-theme&quot;&gt;this repository&lt;/a&gt; under &lt;code&gt;releases&lt;/code&gt; and unzip it inside your &lt;code&gt;/template&lt;/code&gt; directory (just the files not the directory)&lt;/p&gt;
+</content>
+    <summary>This is a simple site without blog, just a landing</summary>
+  </entry>
+  <entry>
+    <title>Mate Theme</title>
+    <link href="https://zerodragon.github.io/SiteCraft-Gallery/posts/mate"/>
+    <id>https://zerodragon.github.io/SiteCraft-Gallery/posts/mate</id>
+    <published>2023-06-16T00:00:00.000Z</published>
+    <updated>2023-06-16T00:00:00.000Z</updated>
+    <media:thumbnail url="https://zerodragon.github.io/SiteCraft-Gallery/content/images/mate.jpeg"></media:thumbnail>
+    <content type="html">&lt;h2&gt;Mate Theme&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;!%7BsiteUrl%7D/content/images/mate.jpeg&quot; alt=&quot;Mate&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;What it Mate?&lt;/h3&gt;
+&lt;p&gt;Mate is an argentinian herb that is used as tea (it is actually a tea leaf) and the name of this theme is because when I was developing this theme I was drinking a lot of Mate.&lt;/p&gt;
+&lt;p&gt;This is the base theme, nothing super fancy, and in fact it is the theme that you are looking right now.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It features a liquid responsive design&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This theme is also a showcase with all the options that can be used in the metadata of a blogpost, how to customize the bloglist and how to do imports in the &lt;code&gt;styl&lt;/code&gt; files to reduce file size while developing a template.&lt;/p&gt;
+&lt;p&gt;Remember to use the contents of the theme you are wanting to use directly into the &lt;code&gt;/template&lt;/code&gt; directory.&lt;/p&gt;
+&lt;h3&gt;File structure of this theme&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;─ template
+  ├─ favicon
+  │  └─ All favicon related items
+  ├─ images
+  │  └─ header.jpg
+  ├─ partials
+  │  ├─ blogList.pug # showcase of the list of post of the homepage
+  │  ├─ blogList.styl # sepparated styl file so wont blotter the original style sheet
+  │  ├─ foter.pug
+  │  ├─ header.pug
+  │  └─ headMeta.pug # where all the social media magic happens
+  ├─ page.pug # this is used to render all single pages
+  ├─ post.pug # similar to page, but this is used to render individual blog posts
+  └─ styles.styl # primary stylesheet. Check those imports
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;How to install&lt;/h3&gt;
+&lt;p&gt;Just download the &lt;code&gt;mate.zip&lt;/code&gt; file from &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/zerodragon/SiteCraft-Gallery&quot;&gt;this repository&lt;/a&gt; under &lt;code&gt;releases&lt;/code&gt; and unzip it inside your &lt;code&gt;/template&lt;/code&gt; directory (just the files not the directory)&lt;/p&gt;
+</content>
+    <summary>Original theme with examples for all posibilities supported</summary>
+  </entry>
+</feed>
