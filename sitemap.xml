@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://zerodragon.github.io/SiteCraft-Gallery/sitemap.xsl" type="text/xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc title="Home">https://zerodragon.github.io/SiteCraft-Galleryhttps://zerodragon.github.io/SiteCraft-Gallery/</loc>
+    <loc title="Home">https://zerodragon.github.io/SiteCraft-Gallery/</loc>
   </url>
   <url>
-    <loc title="About">https://zerodragon.github.io/SiteCraft-Galleryhttps://zerodragon.github.io/SiteCraft-Gallery/about</loc>
+    <loc title="About">https://zerodragon.github.io/SiteCraft-Gallery/about</loc>
   </url>
   <url>
     <loc title="Simple Theme">https://zerodragon.github.io/SiteCraft-Gallery/posts/no-blog</loc>
