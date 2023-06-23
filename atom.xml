@@ -6,7 +6,7 @@
   <link href="https://zerodragon.github.io/SiteCraft-Gallery/atom.xml" rel="self"/>
   <link href="https://zerodragon.github.io/SiteCraft-Gallery"/>
   <updated>Mon Jun 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)</updated>
-  <id>${siteUrl}</id>
+  <id>https://zerodragon.github.io/SiteCraft-Gallery</id>
   <author>
     <name>Zero</name>
     <uri>https://floresbenavides.com</uri>
