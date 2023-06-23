@@ -25,6 +25,6 @@
   },
   "homepage": "https://zerodragon.github.io/SiteCraft-Gallery",
   "devDependencies": {
-    "sitecraft": "^1.1.7"
+    "sitecraft": "^1.1.8"
   }
 }
