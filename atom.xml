@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href='https://zerodragon.github.io/SiteCraft-Gallery/rss.xsl' type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <title>SiteCraft Template Gallery</title>
   <subtitle>This site was created using SiteCraft</subtitle>
