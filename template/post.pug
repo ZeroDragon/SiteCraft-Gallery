@@ -6,6 +6,9 @@ body
   .content
     |!{pageData}
 
+    include plugins/comments.pug
+
+    h2 Other entries
     .navigator
       if next.path
         a(href=`${siteUrl}/posts/${next.path}`) &laquo; #{next.title}

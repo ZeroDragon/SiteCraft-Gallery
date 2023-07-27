@@ -4,6 +4,10 @@ meta:
   author: Zero
   excerpt: This is a simple site without blog, just a landing
   image: content/images/no-blog.png
+  comments:
+    id: '110783961854409671'
+    server: mstdn.mx
+    user: ZeroDragon
 
 ## Simple Theme
 
