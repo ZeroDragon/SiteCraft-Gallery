@@ -56,6 +56,67 @@ No pages defined in <code>site.yml</code>. But you can add as desired to <code>c
 <h3>How to install</h3>
 <p>Just download the <code>template.zip</code> file from <a target="_blank" href="https://github.com/ZeroDragon/SiteCraft-simple-theme">this repository</a> under <code>releases</code> and unzip it inside your <code>/template</code> directory (just the files not the directory)</p>
 
+    <h2>Comments</h2><span>Reply to <a href="https://mstdn.mx/@ZeroDragon/110783961854409671">this post in mastodon</a> to appear here (non-private responses only)<br/></span>
+    <div id="comments"></div>
+    <div class="comment" id="template">
+      <div class="avatar"><img/></div>
+      <div class="commentText"><span class="author"><a></a></span>
+        <div class="timestamp"></div>
+        <div class="text"></div>
+        <div class="favs"></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      const inserEmoji = (text, emojis = []) => {
+        let nText = text
+        emojis.forEach(emoji => {
+          const img = document.createElement('img')
+          img.src = emoji.url
+          img.alt = emoji.shortcode
+          img.title = emoji.shortcode
+          nText = nText.replace(`:${emoji.shortcode}:`, img.outerHTML)
+        })
+        return nText
+      }
+      const getComments = async () => {
+        const postId = '110783961854409671'
+        const url = 'https://mstdn.mx/api/v1/statuses/110783961854409671/context'
+        const comments = document.getElementById('comments')
+        comments.innerHTML = 'Loading...'
+        const data = (await (await fetch(url)).json()).descendants
+        comments.innerHTML = ''
+        const holder = document.getElementById('comments')
+        data.forEach(comment => {
+          const template = document.getElementById('template').cloneNode(true)
+          template.removeAttribute('id')
+          const $ = q => template.querySelector(q)
+          if (comment.in_reply_to_id !== postId) template.className = 'comment indent'
+          const image = $('.avatar img').src = comment.account.avatar
+          const authorName = comment.account.display_name || comment.account.username
+          $('span.author a').innerHTML = inserEmoji(authorName, comment.account.emojis)
+          $('span.author a').href = comment.account.url
+          $('.timestamp').innerHTML = new Date( comment.created_at ).toLocaleString('en-US', {
+            dateStyle: "long",
+            timeStyle: "short",
+          })
+          $('.commentText .text').innerHTML = comment.content
+          if (comment.favourites_count > 0) $('.favs').innerHTML = `⭐ ${comment.favourites_count}`
+          holder.appendChild(template)
+        })
+      }
+      getComments()
+    </script>
+    <style>
+      #template { display: none; }
+      .comment { display: flex; margin-bottom: 10px; }
+      .comment.indent { margin-left: 30px; }
+      .comment .author img { max-width: 15px; max-height: 15px; display: inline; }
+      .comment img { max-width: 50px; max-height: 50px; }
+      .comment .commentText { padding-left: 10px; }
+      .comment .commentText .text { margin-top: 10px; }
+      .comment .timestamp, .comment .favs { font-size: 80%; }
+    </style>
+    <h2>Other entries</h2>
     <div class="navigator"><a href="https://zerodragon.github.io/SiteCraft-Gallery/posts/mate">&laquo; Mate Theme</a><span></span>
     </div>
   </div>

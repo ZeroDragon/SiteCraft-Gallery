@@ -130,10 +130,18 @@ h2 {
   display: block;
   margin: 5px 0;
 }
+.content script,
+.xml script,
+.content style,
+.xml style {
+  display: none;
+}
 .content img,
 .xml img {
   max-width: 100%;
   border-radius: 10px;
+  display: block;
+  margin: auto;
 }
 .content h2,
 .xml h2 {
