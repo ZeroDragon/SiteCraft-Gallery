@@ -33,7 +33,8 @@
     </ul>
   </nav>
   <div class="content"><h2>Simple Theme</h2>
-<p><img src="https://zerodragon.github.io/SiteCraft-Gallery/content/images/no-blog.png" alt="Mate"></p>
+<!-- ![Mate](https://zerodragon.github.io/SiteCraft-Gallery/content/images/no-blog.png) -->
+
 <br/>
 
 <p>This is as simple as it gets, no blog, no entries, just a header, footer and simple landing page. This build does not include favicons, you can add yours. 
@@ -99,7 +100,7 @@ No pages defined in <code>site.yml</code>. But you can add as desired to <code>c
             dateStyle: "long",
             timeStyle: "short",
           })
-          $('.commentText .text').innerHTML = comment.content
+          $('.commentText .text').innerHTML = inserEmoji(comment.content, comment.emojis)
           if (comment.favourites_count > 0) $('.favs').innerHTML = `⭐ ${comment.favourites_count}`
           holder.appendChild(template)
         })
@@ -110,8 +111,10 @@ No pages defined in <code>site.yml</code>. But you can add as desired to <code>c
       #template { display: none; }
       .comment { display: flex; margin-bottom: 10px; }
       .comment.indent { margin-left: 30px; }
-      .comment .author img { max-width: 15px; max-height: 15px; display: inline; }
-      .comment img { max-width: 50px; max-height: 50px; }
+      .comment .avatar img { max-width: 50px; max-height: 50px; }
+      .comment img { display: inline; }
+      .comment .author img { max-width: 15px; max-height: 15px; }
+      .comment .text img { max-width: 20px; max-height: 20px; }
       .comment .commentText { padding-left: 10px; }
       .comment .commentText .text { margin-top: 10px; }
       .comment .timestamp, .comment .favs { font-size: 80%; }
