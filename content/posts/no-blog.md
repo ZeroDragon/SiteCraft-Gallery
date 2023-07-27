@@ -11,7 +11,7 @@ meta:
 
 ## Simple Theme
 
-![Mate](!{siteUrl}/content/images/no-blog.png)
+<!-- ![Mate](!{siteUrl}/content/images/no-blog.png) -->
 
 <br/>
 

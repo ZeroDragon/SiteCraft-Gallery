@@ -48,7 +48,7 @@ if comments.id
           dateStyle: "long",
           timeStyle: "short",
         })
-        $('.commentText .text').innerHTML = comment.content
+        $('.commentText .text').innerHTML = inserEmoji(comment.content, comment.emojis)
         if (comment.favourites_count > 0) $('.favs').innerHTML = `⭐ ${comment.favourites_count}`
         holder.appendChild(template)
       })
@@ -58,8 +58,10 @@ if comments.id
     #template { display: none; }
     .comment { display: flex; margin-bottom: 10px; }
     .comment.indent { margin-left: 30px; }
-    .comment .author img { max-width: 15px; max-height: 15px; display: inline; }
-    .comment img { max-width: 50px; max-height: 50px; }
+    .comment .avatar img { max-width: 50px; max-height: 50px; }
+    .comment img { display: inline; }
+    .comment .author img { max-width: 15px; max-height: 15px; }
+    .comment .text img { max-width: 20px; max-height: 20px; }
     .comment .commentText { padding-left: 10px; }
     .comment .commentText .text { margin-top: 10px; }
     .comment .timestamp, .comment .favs { font-size: 80%; }
