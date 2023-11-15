@@ -32,14 +32,7 @@
       <li><a href="https://zerodragon.github.io/SiteCraft-Gallery/about">About</a></li>
     </ul>
   </nav>
-  <div class="content"><h1>SiteCraft Template Gallery</h1>
-<p>This site was created using SiteCraft</p>
-<br>
-
-<p>Here is a list of all SiteCraft themes created by the comunity, feel free to use them, remix them and if you want to showcase your theme, open a PR with your entry :D</p>
-<br>
-<hr>
-
+  <div class="content"><h1>All entries with the tag: <tag id="tag">a</tag></h1>
 <p>
 <div class="blogList">
   <div class="card template no-blog" style="background-image: url(https://zerodragon.github.io/SiteCraft-Gallery/content/images/no-blog.png)">
@@ -67,6 +60,15 @@
     </div><a class="megaLink" href="https://zerodragon.github.io/SiteCraft-Gallery/posts/mate"></a>
   </div>
 </div></p>
+<script>
+  const params = new Proxy(new URLSearchParams(window.location.search), {
+    get: (searchParams, prop) => searchParams.get(prop),
+  })
+  document.getElementById('tag').innerText = params.tag
+  new Array(...document.querySelectorAll(`.card:not(.${params.tag})`)).forEach(itm =>{
+    itm.style.display = 'none'
+  })
+</script>
 </div>
   <footer>SiteCraft by Zero: 2023</footer>
 </body>

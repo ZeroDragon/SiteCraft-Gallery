@@ -18,7 +18,7 @@
     <updated>2023-06-19T00:00:00.000Z</updated>
     <media:thumbnail url="https://zerodragon.github.io/SiteCraft-Gallery/content/images/no-blog.png"></media:thumbnail>
     <content type="html">&lt;h2&gt;Simple Theme&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;!%7BsiteUrl%7D/content/images/no-blog.png&quot; alt=&quot;Mate&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;!%7BsiteUrl%7D/content/images/no-blog.png&quot; alt=&quot;Simple&quot;&gt;&lt;/p&gt;
 &lt;br/&gt;
 
 &lt;p&gt;This is as simple as it gets, no blog, no entries, just a header, footer and simple landing page. This build does not include favicons, you can add yours. 
