@@ -8,7 +8,7 @@ body
     .postTags
       if tags
         for tag in tags
-          a(href=`/posts?tag=${tag}`) !{tag}
+          a(href=`${siteUrl}/posts?tag=${tag}`) !{tag}
 
     include plugins/comments.pug
 
