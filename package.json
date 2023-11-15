@@ -1,6 +1,6 @@
 {
   "name": "sitecraft-gallery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Gallery of sitecraft templates (PR encouraged)",
   "main": "index.js",
   "scripts": {
