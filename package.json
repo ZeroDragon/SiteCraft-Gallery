@@ -4,7 +4,7 @@
   "description": "A Gallery of sitecraft templates (PR encouraged)",
   "main": "index.js",
   "scripts": {
-    "release": "mkdir releases && zip -r releases/mate.zip template",
+    "release": "rm -rf releases && mkdir releases && zip -r releases/mate.zip template",
     "build": "sitecraft build"
   },
   "repository": {
