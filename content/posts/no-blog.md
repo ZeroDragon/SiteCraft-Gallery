@@ -8,10 +8,13 @@ meta:
     id: '110783961854409671'
     server: mstdn.mx
     user: ZeroDragon
+  tags:
+    - template
+    - no-blog
 
 ## Simple Theme
 
-![Mate](!{siteUrl}/content/images/no-blog.png)
+![Simple](!{siteUrl}/content/images/no-blog.png)
 
 <br/>
 

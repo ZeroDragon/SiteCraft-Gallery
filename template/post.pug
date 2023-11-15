@@ -5,6 +5,10 @@ body
   include partials/header.pug
   .content
     |!{pageData}
+    .postTags
+      if tags
+        for tag in tags
+          a(href=`/posts?tag=${tag}`) !{tag}
 
     include plugins/comments.pug
 

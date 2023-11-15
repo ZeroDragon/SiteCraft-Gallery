@@ -4,6 +4,9 @@ meta:
   author: Zero
   excerpt: Original theme with examples for all posibilities supported
   image: content/images/mate.jpeg
+  tags:
+    - complete
+    - template
 
 ## Mate Theme
 
